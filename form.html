@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/preloader.css">
+    <link rel="stylesheet" href="style/form.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <div id="page-preloader" class="preloader">
+        <div class="loader"></div>
+        <div class="planet-loader p-l-1"></div>
+        <div class="planet-loader p-l-2"></div>
+        <div class="planet-loader p-l-3"></div>
+        <div class="planet-loader p-l-4"></div>
+    </div>
+    <div id="postloader"></div>
+
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="Images/logo.png" class="logo_img linkIndex">
+            </div>
+            <div class="menu_burger">
+                <p class="p_burger">Меню</p>
+                <div class="button_menu">
+                    <div class="but_menu but_menu1"><p class="but_text linkMaket">Макет</p></div>
+                    <div class="but_menu but_menu2">
+                        <p class="but_text">Объекты</p>
+                    </div>
+                    <div class="but_menu but_menu3"><p class="but_text linkGallery">Галерея</p></div>
+                    <div class="obj_burger">
+                        <div class="obj_btn link0">Солнце</div>
+                        <div class="obj_btn link1">Меркурий</div>
+                        <div class="obj_btn link2">Венера</div>
+                        <div class="obj_btn link3">Марс</div>
+                        <div class="obj_btn link4">Юпитер</div>
+                        <div class="obj_btn link5">Сатурн</div>
+                        <div class="obj_btn link6">Уран</div>
+                        <div class="obj_btn link7">Нептун</div>
+                        <div class="obj_btn link8">Другое</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="user_place"></div>
+        </div>
+        
+        <img src="Images/planet0.png" alt="" class="back back1">
+        <img src="Images/planet3.png" alt="" class="back back2">
+        <div class="quests">
+            <h1 class="h1_form">Спасибо за ответы!</h1>
+            <div class="reg_block">
+                <div class="reg_stantion">
+                    <div class="reg_place rp1">
+                        <div class="btn_container">
+                            <p class="reg_qest">Вам нравится наш сайт?</p>
+                            <div class="answer ans11">Да</div>
+                            <div class="answer ans12">Нет</div>
+                            <div class="answer ans13">Не знаю</div>
+                            <div class="btn next next1">Дальше</div>
+                        </div>
+                    </div>
+                    <div class="reg_place rp2">
+                        <div class="btn_container">
+                            <p class="reg_qest">Вам удобно пользоваться сайтом?</p>
+                            <div class="answer ans21">Да, удобно</div>
+                            <div class="answer ans22">Нет</div>
+                            <div class="answer ans23">Не знаю</div>
+                            <div class="btn next next2">Дальше</div>
+                            <div class="btn prev prev2">Назад</div>
+                        </div>
+                    </div>
+                    <div class="reg_place rp3">
+                        <div class="btn_container">
+                            <p class="reg_qest">На сайте достаточно материала?</p>
+                            <div class="answer ans31">Достаточно</div>
+                            <div class="answer ans32">Можно добавить еще</div>
+                            <div class="answer ans33">Не достаточно</div>
+                            <div class="btn next next3">Дальше</div>
+                            <div class="btn prev prev3">Назад</div>
+                        </div>
+                    </div>
+                    <div class="reg_place rp4">
+                        <div class="btn_container">
+                            <p class="reg_qest">Вам пригодился материал с сайта?</p>
+                            <div class="answer ans41">Да, пригодился</div>
+                            <div class="answer ans42">Нет, не пригодился</div>
+                            <div class="answer ans43">Я изучил не все</div>
+                            <div class="btn next next4">Дальше</div>
+                            <div class="btn prev prev4">Назад</div>
+                        </div>
+                    </div>
+                    <div class="reg_place rp5">
+                        <div class="btn_container">
+                            <p class="reg_qest">Ваш коментарий:</p>
+                            <textarea id="coment" name="coment" class="input" cols="30" rows="10">Отличный сайт от отличного автора</textarea>
+                            <div class="btn prev prev5">Назад</div>
+                            <div class="btn next next5">Отправить</div>
+                        </div>
+                    </div>
+                    <span class="sqare sqare1"></span>
+                    <span class="sqare sqare2"></span>
+                    <span class="sqare sqare3"></span>
+                    <span class="sqare sqare4"></span>
+                    <span class="sqare sqare5"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="p_footer">
+                <p>© 2022  <a class="footer_a linkForm">Оставить отзыв</a>  <a class="footer_a linkContact">Контакты</a></p>
+                <p>Мухаметшин А.Р. ИКБО-20-21</p>
+            </div>
+        </div>
+    </div>
+    <script src="script/preloader.js"></script>
+    <script src="script/burger_index.js"></script>
+    <script src="script/teleport_form.js"></script>
+    <script src="script/form.js"></script>
+</body>
+</html>

@@ -1,0 +1,254 @@
+html {
+    height: auto;
+}
+
+body {
+    background-color: #0C0032;
+    background-image: url("../Images/background.jpg");
+    background-size: cover;  
+    background-attachment: fixed;
+    margin:0;
+    height: auto;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+
+}
+.maket_p {
+    color: aliceblue;
+    text-shadow: 0 2px 10px aliceblue;
+    font-size: 2.5rem;
+    padding: 0 10vw;
+    flex-wrap: wrap;
+    width: calc(100% - 20vw);
+    display: flex;
+    justify-content: space-between;
+}
+.maket_p p {
+    margin: 0;
+}
+
+.footer {
+    width: 100%;
+    color: aliceblue;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.footer p {
+    margin: 5px;
+}
+
+.footer_a {
+    color: aliceblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer_a:hover {
+    text-decoration: none;
+}
+.footer_a:visited {
+    color: aliceblue;
+}
+
+.sun_system_block {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 81vh;
+    max-height: 81vh;
+    width: 95vw;
+    height: 95vw;
+}
+
+.planet_block {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgba(96, 96, 96, 0.173);
+    backdrop-filter: blur(2px);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.planet {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 1px solid rgba(194, 194, 194, 0.453);
+}
+
+.planet_rotate {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.planet_img {
+    display: inline;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.sun_img {
+    width: 100%;
+    height: 100%;
+}
+
+.sun {
+    width: 10%;
+    height: 10%;
+}
+
+.mercury {
+    width: 14%;
+    height: 14%;
+}
+
+.mercury_img {
+    width: 8%;
+    height: 8%;
+}
+
+.rot_mercury {
+    animation: spins-reverse 2.23s linear infinite;
+}
+
+.venus {
+    width: 20%;
+    height: 20%;
+}
+
+.venus_img {
+    width: 8%;
+    height: 8%;
+    left: 50%;
+    top: 100%;
+}
+
+.rot_venus {
+    animation: spins-reverse 7.25s linear infinite;
+}
+
+.earth {
+    width: 26%;
+    height: 26%;
+}
+
+.earth_img {
+    width: 8%;
+    height: 8%;
+}
+
+.rot_earth {
+    animation: spins-reverse 11.8s linear infinite;
+}
+
+.mars {
+    width: 34%;
+    height: 34%;
+}
+
+.mars_img {
+    width: 4%;
+    height: 4%;
+    left: 0;
+    top: 50%;
+}
+
+.rot_mars {
+    animation: spins-reverse 22.5s linear infinite;
+}
+
+.jupiter {
+    width: 46%;
+    height: 46%;
+}
+
+.jupiter_img {
+    width: 9.5%;
+    height: 9.5%;
+    left: 50%;
+    top: 100%;
+}
+
+.rot_jupiter {
+    animation: spins-reverse 60s linear infinite;
+}
+
+.saturn {
+    width: 67%;
+    height: 67%;
+}
+
+.saturn_img {
+    width: 7%;
+    height: 7%;
+}
+
+.rot_saturn {
+    animation: spins-reverse 140s linear infinite;
+}
+
+.uranus {
+    width: 82%;
+    height: 82%;
+}
+
+.uranus_img {
+    width: 3.7%;
+    height: 3.7%;
+    left: 0;
+    top: 50%;
+}
+
+.rot_uranus {
+    animation: spins-reverse 250s linear infinite;
+}
+
+.neptun {
+    width: 90%;
+    height: 90%;
+}
+
+.neptun_img {
+    width: 3.5%;
+    height: 3.5%;
+    left: 100%;
+    top: 50%;
+}
+
+.rot_neptun {
+    animation: spins-reverse 360s linear infinite;
+}
+
+@keyframes spins-reverse {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes spins {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

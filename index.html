@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/preloader.css">
+    <link rel="stylesheet" media="all" href="style/animate.css">
+    <link rel="stylesheet" media="all" href="style/header.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <script src="script/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <title>solar-system</title>
+</head>
+<body>
+    <div id="page-preloader" class="preloader">
+        <div class="loader"></div>
+        <div class="planet-loader p-l-1"></div>
+        <div class="planet-loader p-l-2"></div>
+        <div class="planet-loader p-l-3"></div>
+        <div class="planet-loader p-l-4"></div>
+    </div>
+    <div id="postloader"></div>
+    <div id="swap_up"><img src="Images/upper.png" id="img_up"></div>
+
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="Images/logo.png" class="logo_img linkIndex">
+            </div>
+            <div class="menu_burger">
+                <p class="p_burger">Меню</p>
+                <div class="button_menu">
+                    <div class="but_menu but_menu1"><p class="but_text linkMaket">Макет</p></div>
+                    <div class="but_menu but_menu2">
+                        <p class="but_text">Объекты</p>
+                    </div>
+                    <div class="but_menu but_menu3"><p class="but_text linkGallery">Галерея</p></div>
+                    <div class="obj_burger">
+                        <div class="obj_btn link0">Солнце</div>
+                        <div class="obj_btn link1">Меркурий</div>
+                        <div class="obj_btn link2">Венера</div>
+                        <div class="obj_btn link3">Земля</div>
+                        <div class="obj_btn link4">Марс</div>
+                        <div class="obj_btn link5">Юпитер</div>
+                        <div class="obj_btn link6">Сатурн</div>
+                        <div class="obj_btn link7">Уран</div>
+                        <div class="obj_btn link8">Нептун</div>
+                        <div class="obj_btn link9">Другое</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="user_place"></div>
+        </div>
+
+        <div class="banner">
+            <div class="blur_banner"></div>
+            <div class="text_b">
+                <span class="text_banner" id="text-h1">Солнечная система</span>
+                <span class="text_banner_small" id="text-h2">Увлекательно. Просто. Красиво.</span>
+            </div>
+        </div>
+
+        <div class="main_card">
+            <span class="main_h" id="span-main">Объекты солнечной системы</span>
+            <div class="card_pos pos10 wow bounceInUp" data-wow-duration="2s" data-wow-offset="50">
+                <div class="card_span"></div>
+                <div class="card planet10 linkMaket">
+                    <div class="p_block_card info_block_card">
+                        <span class="p_card info_card">Солнечная система — звёздная система в галактике Млечный Путь, включающая Солнце и естественные космические объекты, обращающиеся вокруг него.<br><br><span class="instruction">Нажимай на карточки, которые тебе интересны, что бы узнать подробнее</span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_pos pos0 wow bounceInLeft" data-wow-duration="2s" data-wow-offset="50">
+                <div class="card_span"></div>
+                <div class="card planet0 link0">
+                    <img src="Images/planet0.png" class="card_img img0">
+                    <span class="h_card">Солнце</span>
+                    <div class="p_block_card">
+                        <span class="p_card">Звезда</span>
+                        <span class="p_card">Диаметр: 1,39 млн. км.</span>
+                        <span class="p_card">Температура: 5780 К</span>
+                        <span class="p_card p_card0">Источник тепла, света и энергии для нашей планеты</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card_pos pos1 wow bounceInRight" data-wow-duration="2s" data-wow-offset="50">
+                <div class="card_span"></div>
+                <div class="card planet1 link1">
+                    <img src="Images/planet1.png" class="card_img img1">
+                    <span class="h_card">Меркурий</span>
+                    <div class="p_block_card">
+                        <span class="p_card">Диаметр: 4879 км.</span>
+                        <span class="p_card p_card_small">Расстояние от солнца: 58 млн. км.</span>
+                        <span class="p_card p_card_small">Длина года: 88 земных суток</span>
+                        <span class="p_card p_card_small">Длина суток: 176 земных суток</span>
+                        <span class="p_card">Спутники: нет</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_pos pos2 wow bounceInUp" data-wow-duration="2s" data-wow-offset="50">
+                <div class="card_span"></div>
+                <div class="card planet2 link2">
+                    <img src="Images/planet2.png" class="card_img img2">
+                    <span class="h_card">Венера</span>
+                    <div class="p_block_card">
+                        <span class="p_card">Диаметр: 12100 км.</span>
+                        <span class="p_card p_card_small">Расстояние от солнца: 108 млн. км.</span>
+                        <span class="p_card p_card_small">Длина года: 225 земных суток</span>
+                        <span class="p_card p_card_small">Длина суток: 243 земных суток</span>
+                        <span class="p_card">Спутники: нет</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_pos pos3 wow bounceInUp" data-wow-duration="2s" data-wow-offset="50">
+                <div class="card_span"></div>
+                <div class="card planet3 link3">
+                    <img src="Images/planet3.png" class="card_img img3">
+                    <span class="h_card">Земля</span>
+                    <div class="p_block_card">
+                        <span class="p_card">Диаметр: 12756 км.</span>
+                        <span class="p_card p_card_small">Расстояние от солнца: 150 млн. км.</span>
+                        <span class="p_card p_card_small">Длина года: 365 земных суток</span>
+                        <span class="p_card">Длина суток: 24 часа</span>
+                        <span class="p_card">Спутники: Луна</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_pos pos4 wow bounceInLeft" data-wow-duration="2s" data-wow-offset="50">
+                <div class="card_span"></div>
+                <div class="card planet4 link4">
+                    <img src="Images/planet4.png" class="card_img img4">
+                    <span class="h_card">Марс</span>
+                    <div class="p_block_card">
+                        <span class="p_card">Диаметр: 6792 км.</span>
+                        <span class="p_card p_card_small">Расстояние от солнца: 228 млн. км.</span>
+                        <span class="p_card p_card_small">Длина года: 687 земных суток</span>
+                        <span class="p_card">Длина суток: 24,6 часа</span>
+                        <span class="p_card">Спутники: Фобос, Деймос</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_pos pos5 wow bounceInRight" data-wow-duration="2s" data-wow-offset="50">
+                <div class="card_span"></div>
+                <div class="card planet5 link5">
+                    <img src="Images/planet5.png" class="card_img img5">
+                    <span class="h_card">Юпитер</span>
+                    <div class="p_block_card">
+                        <span class="p_card">Диаметр: 142984 км.</span>
+                        <span class="p_card p_card_small">Расстояние от солнца: 778,5 млн. км.</span>
+                        <span class="p_card">Длина года: 11,6 земных лет</span>
+                        <span class="p_card">Длина суток: 10 часов</span>
+                        <span class="p_card">Спутники: 79 спутников</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_pos pos6 wow bounceInUp" data-wow-duration="2s" data-wow-offset="50">
+                <div class="card_span"></div>
+                <div class="card planet6 link6">
+                    <img src="Images/planet6.png" class="card_img img6">
+                    <span class="h_card">Сатурн</span>
+                    <div class="p_block_card">
+                        <span class="p_card">Диаметр: 120420 км.</span>
+                        <span class="p_card p_card_small">Расстояние от солнца: 1427 млн. км.</span>
+                        <span class="p_card">Длина года: 29,5 земных лет</span>
+                        <span class="p_card">Длина суток: 10,5 часов</span>
+                        <span class="p_card">Спутники: 82 спутника</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_pos pos7 wow bounceInRight" data-wow-duration="2s" data-wow-offset="50">
+                <div class="card_span"></div>
+                <div class="card planet7 link7">
+                    <img src="Images/planet7.png" class="card_img img7">
+                    <span class="h_card">Уран</span>
+                    <div class="p_block_card">
+                        <span class="p_card">Диаметр: 51300 км.</span>
+                        <span class="p_card p_card_small">Расстояние от солнца: 2860 млн. км.</span>
+                        <span class="p_card">Длина года: 84 земных года</span>
+                        <span class="p_card">Длина суток: 17,2 часа</span>
+                        <span class="p_card">Спутники: 27 спутников</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_pos pos8 wow bounceInLeft" data-wow-duration="2s" data-wow-offset="50">
+                <div class="card_span"></div>
+                <div class="card planet8 link8">
+                    <img src="Images/planet8.png" class="card_img img8">
+                    <span class="h_card">Нептун</span>
+                    <div class="p_block_card">
+                        <span class="p_card">Диаметр: 49500 км.</span>
+                        <span class="p_card p_card_small">Расстояние от солнца: 4500 млн. км.</span>
+                        <span class="p_card">Длина года: 165 земных лет</span>
+                        <span class="p_card">Длина суток: 18 часов</span>
+                        <span class="p_card">Спутники: 14 спутников</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_pos pos9 wow bounceInRight" data-wow-duration="2s" data-wow-offset="50">
+                <div class="card_span"></div>
+                <div class="card planet9 link9">
+                    <span class="h_card">Остальные объекты</span>
+                    <div class="p_block_card ost_block_card">
+                        <span class="p_card">Пояс Астероидов</span>
+                        <span class="p_card">Облако Оорта</span>
+                        <span class="p_card">Кометы</span>
+                        <span class="p_card">Спутники</span>
+                        <span class="p_card">Планеты-карлики</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="interest">
+            <div class="h_interest">Так же может понравиться</div>
+            <div class="block_interest">
+                <div class="card_interest">
+                    <a href="https://mirax.space/solnechnaya-sistema/pochemu-nastupaet-vesennee-ravnodenstvie-i-solntsestoyanie" class="ncard">
+                        <span class="line_n">
+                            <span class="line_left"></span>
+                            <span class="line_top"></span>
+                            <span class="line_rigth"></span>
+                            <span class="line_bot"></span>
+                        </span>
+                        <img src="Images/int1.png" class="img_int">
+                        <p class="p_int">Почему наступает весеннее равноденствие и солнцестояние</p>
+                    </a>
+
+                    <a href="https://mirax.space/solnechnaya-sistema/sputnik-zemli" class="ncard">
+                        <span class="line_n">
+                            <span class="line_left"></span>
+                            <span class="line_top"></span>
+                            <span class="line_rigth"></span>
+                            <span class="line_bot"></span>
+                        </span>
+                        <img src="Images/int2.jpg" class="img_int">
+                        <p class="p_int">Все спутники Земли: количество, названия, характеристики</p>
+                    </a>
+
+                    <a href="https://mirax.space/solnechnaya-sistema/sputniki-yupitera" class="ncard">
+                        <span class="line_n">
+                            <span class="line_left"></span>
+                            <span class="line_top"></span>
+                            <span class="line_rigth"></span>
+                            <span class="line_bot"></span>
+                        </span>
+                        <img src="Images/int3.jpg" class="img_int">
+                        <p class="p_int">Спутники Юпитера: внутренние и внешние, классификация по группам</p>
+                    </a>
+
+                    <a href="https://mirax.space/solnechnaya-sistema/zatmeniya-2022" class="ncard">
+                        <span class="line_n">
+                            <span class="line_left"></span>
+                            <span class="line_top"></span>
+                            <span class="line_rigth"></span>
+                            <span class="line_bot"></span>
+                        </span>
+                        <img src="Images/int4.jpg" class="img_int">
+                        <p class="p_int">Даты затмений 2022: лунное, солнечное, коридоры затмений</p>
+                    </a>
+
+                    <a href="https://mirax.space/solnechnaya-sistema/magnitnoe-pole" class="ncard">
+                        <span class="line_n">
+                            <span class="line_left"></span>
+                            <span class="line_top"></span>
+                            <span class="line_rigth"></span>
+                            <span class="line_bot"></span>
+                        </span>
+                        <img src="Images/int5.jpg" class="img_int">
+                        <p class="p_int">Что такое магнитное поле Земли: составляющие, работа и изменения</p>
+                    </a>
+
+                    <a href="https://mirax.space/solnechnaya-sistema/temperatura-urana" class="ncard">
+                        <span class="line_n">
+                            <span class="line_left"></span>
+                            <span class="line_top"></span>
+                            <span class="line_rigth"></span>
+                            <span class="line_bot"></span>
+                        </span>
+                        <img src="Images/int6.jpg" class="img_int">
+                        <p class="p_int">Какая температура на Уране: днем и ночью, у ядра и на поверхности</p>
+                    </a>
+                </div>
+            </div>
+            <div class="btn_interest prev_interest"><img class="img_btn_int" src="Images/left.png"></div>
+            <div class="btn_interest next_interest"><img class="img_btn_int" src="Images/rigth.png"></div>
+        </div>
+
+        <div class="footer">
+            <div class="p_footer">
+                <p>© 2022  <a class="footer_a linkForm">Оставить отзыв</a>  <a class="footer_a linkContact">Контакты</a></p>
+                <p>Мухаметшин А.Р. ИКБО-20-21</p>
+            </div>
+        </div>
+    </div>
+    <script src="script/preloader_index.js"></script>
+    <script src="script/teleport.js"></script>
+    <script src="script/burger_index.js"></script>
+    <script src="script/index.js"></script>
+</body>
+</html>
